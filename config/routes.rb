@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :signups
+
   resources :microposts
 
   resources :users
